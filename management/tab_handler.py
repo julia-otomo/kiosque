@@ -13,6 +13,7 @@ def calculate_tab(table: list):
                 payment_list.append(separate_payment)
 
     completed_payment = functools.reduce(lambda a, b: a + b, payment_list)
+
     resulted_dict["subtotal"] = f"${round(completed_payment, 2)}"
     return resulted_dict
 

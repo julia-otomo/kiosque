@@ -1,7 +1,12 @@
 from menu import products
+from collections import Counter
+import functools
 
 
-def get_product_by_id(id):
+def get_product_by_id(id: int):
+    if not isinstance(id, int):
+        raise TypeError("product id must be an int")
+
     product_found = {}
 
     for product in products:
@@ -12,7 +17,10 @@ def get_product_by_id(id):
     return product_found
 
 
-def get_products_by_type(type):
+def get_products_by_type(type: str):
+    if not isinstance(type, str):
+        raise TypeError("product type must be a str")
+
     products_list = []
 
     for product in products:
@@ -24,9 +32,10 @@ def get_products_by_type(type):
 
 def add_product(menu: list, **kwargs):
     new_product = kwargs
+    new_product["_id"] = 0
 
     if len(menu) == 0:
-        new_product["_id"] = 1
+        new_product["_id"] += 1
     else:
         id_list = []
         for product in menu:
@@ -36,3 +45,18 @@ def add_product(menu: list, **kwargs):
 
     menu.append(new_product)
     return new_product
+
+
+def menu_report():
+    product_count = len(products)
+
+    prices_list = [price["price"] for price in products]
+    average_price = (functools.reduce(lambda a, b: a + b, prices_list)) / len(
+        prices_list
+    )
+    types_list = [type["type"] for type in products]
+    most_common_type = Counter(types_list).most_common(1)[0][0]
+
+    result_phrase = f"Products Count: {product_count} - Average Price: ${round(average_price, 2)} - Most Common Type: {most_common_type}"
+
+    return result_phrase
