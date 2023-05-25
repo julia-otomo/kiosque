@@ -9,9 +9,7 @@ products = [
     },
     {
         "_id": 8,
-        "description": """Hazelnut in black ceramic bowl on old wooden
-          background.
-          forest wealth. rustic style. selective focus""",
+        "description": "Hazelnut in black ceramic bowl on old wooden background. forest wealth. rustic style. selective focus",
         "price": 27.35,
         "rating": 0,
         "title": "Hazelnut in black ceramic bowl",
@@ -19,9 +17,7 @@ products = [
     },
     {
         "_id": 20,
-        "description": """Homemade healthy caprese salad with tomato
-        mozzarella
-        and basil""",
+        "description": "Homemade healthy caprese salad with tomato mozzarella and basil",
         "price": 16.76,
         "rating": 5,
         "title": "Caprese salad",
@@ -29,12 +25,7 @@ products = [
     },
     {
         "_id": 32,
-        "description": """Mix of rum,
-        lemon juice,
-        mint,
-        sugar and
-        sparking
-        water""",
+        "description": "Mix of rum, lemon juice, mint, sugar and sparking water",
         "price": 27.61,
         "rating": 4,
         "title": "Mojito",
@@ -42,9 +33,7 @@ products = [
     },
     {
         "_id": 30,
-        "description": """Glass jar with homemade granola and yogurt with nuts,
-        raspberries and blackberries on wooden
-        cutting board over white textile in day light""",
+        "description": "Glass jar with homemade granola and yogurt with nuts, raspberries and blackberries on wooden cutting board over white textile in day light",
         "price": 29.97,
         "rating": 3,
         "title": "Granola",
@@ -76,8 +65,7 @@ products = [
     },
     {
         "_id": 16,
-        "description": """Homemade baked stuffed portabello
-        mushrooms with spinach and cheese""",
+        "description": "Homemade baked stuffed portabello mushrooms with spinach and cheese",
         "price": 20.31,
         "rating": 1,
         "title": "Baked stuffed portabello mushrooms",
@@ -93,9 +81,7 @@ products = [
     },
     {
         "_id": 4,
-        "description": """Glass of green smoothie with quail egg's yolk,
-        served with cocktail tube,
-        green apple and baby spinach leaves over tin surface.""",
+        "description": "Glass of green smoothie with quail egg's yolk, served with cocktail tube, green apple and baby spinach leaves over tin surface.",
         "price": 17.68,
         "rating": 4,
         "title": "Green smoothie",
@@ -127,10 +113,7 @@ products = [
     },
     {
         "_id": 38,
-        "description": """Healthy breakfast. berry crumble
-        with fresh blueberries,
-        raspberries, strawberries, almond, walnuts, pecans, yogurt,
-        and mint in ceramic plates over white wooden surface, top view""",
+        "description": "Healthy breakfast. berry crumble with fresh blueberries,raspberries, strawberries, almond, walnuts, pecans, yogurt, and mint in ceramic plates over white wooden surface, top view",
         "price": 21.01,
         "rating": 4,
         "title": "Fresh blueberries",
@@ -138,9 +121,7 @@ products = [
     },
     {
         "_id": 31,
-        "description": """Glass of red strawberry smoothie with chia seeds,
-        served with retro cocktail tube,
-        fresh mint and strawberries over wooden table""",
+        "description": "Glass of red strawberry smoothie with chia seeds, served with retro cocktail tube, fresh mint and strawberries over wooden table",
         "price": 25.26,
         "rating": 5,
         "title": "Smoothie with chia seeds",
@@ -188,8 +169,7 @@ products = [
     },
     {
         "_id": 39,
-        "description": """Vegan sandwiches with smashed avocado,
-        tomatoes and radish. top view""",
+        "description": "Vegan sandwiches with smashed avocado, tomatoes and radish. top view",
         "price": 25.88,
         "rating": 0,
         "title": "Smashed avocado",
@@ -205,9 +185,7 @@ products = [
     },
     {
         "_id": 40,
-        "description": """Italian ciabatta bread cut in slices
-        on wooden chopping board with herbs,
-        garlic and olives over dark grunge backdrop, top view""",
+        "description": "Italian ciabatta bread cut in slices on wooden chopping board with herbs, garlic and olives over dark grunge backdrop, top view",
         "price": 15.18,
         "rating": 1,
         "title": "Italian ciabatta",
@@ -215,9 +193,7 @@ products = [
     },
     {
         "_id": 14,
-        "description": """Healthy breakfast set.
-        rice cereal or porridge with berries
-        and honey over rustic wood background""",
+        "description": "Healthy breakfast set. rice cereal or porridge with berries and honey over rustic wood background",
         "price": 13.02,
         "rating": 2,
         "title": "Healthy breakfast",
@@ -233,11 +209,7 @@ products = [
     },
     {
         "_id": 42,
-        "description": """Heap of whole and sliced
-        lemons and limes with mint in vintage
-        metal grid box over old wooden table with
-        turquoise wooden background.
-        dark rustic style.""",
+        "description": "Heap of whole and sliced lemons and limes with mint in vintage metal grid box over old wooden table with turquoise wooden background. dark rustic style.",
         "price": 27.14,
         "rating": 2,
         "title": "Sliced lemons",
@@ -245,8 +217,7 @@ products = [
     },
     {
         "_id": 29,
-        "description": """Homemade traditional cuban sandwiches
-        with ham pork and cheese""",
+        "description": "Homemade traditional cuban sandwiches with ham pork and cheese",
         "price": 18.5,
         "rating": 4,
         "title": "Cuban sandwich",
@@ -318,10 +289,7 @@ products = [
     },
     {
         "_id": 41,
-        "description": """Rustic healthy breakfast set.
-        cooked buckwheat groats with milk
-        and honey on dark grunge backdrop.
-        top view, copy space""",
+        "description": "Rustic healthy breakfast set. cooked buckwheat groats with milk and honey on dark grunge backdrop. top view, copy space",
         "price": 21.32,
         "rating": 0,
         "title": "Rustic breakfast",
@@ -329,10 +297,7 @@ products = [
     },
     {
         "_id": 45,
-        "description": """Healthy breakfast set.
-        rice cereal or porridge with fresh strawberry,
-        apricots, almond and honey
-        over white rustic wood backdrop, top view, \x00""",
+        "description": "Healthy breakfast set. rice cereal or porridge with fresh strawberry, apricots, almond and honey over white rustic wood backdrop, top view, \x00",
         "price": 15.13,
         "rating": 3,
         "title": "Strawberries",
@@ -364,9 +329,7 @@ products = [
     },
     {
         "_id": 6,
-        "description": """Baking cake in rural kitchen - dough  recipe
-        ingredients (eggs, flour, sugar)
-        on vintage wooden table from above.""",
+        "description": "Baking cake in rural kitchen - dough  recipe ingredients (eggs, flour, sugar) on vintage wooden table from above.",
         "price": 11.14,
         "rating": 4,
         "title": "Baking cake",
@@ -390,9 +353,7 @@ products = [
     },
     {
         "_id": 21,
-        "description": """Orange popsicle ice cream bars made from fresh
-        oranges.
-        a refreshing summer treat.""",
+        "description": "Orange popsicle ice cream bars made from fresh oranges.a refreshing summer treat.",
         "price": 21.48,
         "rating": 4,
         "title": "Oranges",
@@ -408,9 +369,7 @@ products = [
     },
     {
         "_id": 46,
-        "description": """Raw ground beef meat burger steak
-        cutlets with seasoning on vintage wooden boards,
-        black background""",
+        "description": "Raw ground beef meat burger steak cutlets with seasoning on vintage wooden boards, black background",
         "price": 11.73,
         "rating": 5,
         "title": "Ground beef meat burger",
@@ -418,10 +377,7 @@ products = [
     },
     {
         "_id": 50,
-        "description": """Peaches on branch with leaves
-        and glasses with peach juice and limonade with
-        ice cubes in aluminum tray over old metal table. dark rustic style.
-        top view.""",
+        "description": "Peaches on branch with leaves and glasses with peach juice and limonade with ice cubes in aluminum tray over old metal table. dark rustic style. top view.",
         "price": 25.62,
         "rating": 3,
         "title": "Peaches on branch",
@@ -429,9 +385,7 @@ products = [
     },
     {
         "_id": 26,
-        "description": """Glass of red strawberry smoothie with chia seeds,
-        served with retro cocktail tube,
-        fresh mint and strawberries over dark background""",
+        "description": "Glass of red strawberry smoothie with chia seeds, served with retro cocktail tube, fresh mint and strawberries over dark background",
         "price": 28.86,
         "rating": 2,
         "title": "Strawberry smoothie",
