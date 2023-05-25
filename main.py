@@ -1,5 +1,6 @@
 from management.product_handler import (
     add_product,
+    add_product_extra,
     get_products_by_type,
     get_product_by_id,
     menu_report,
@@ -22,7 +23,7 @@ if __name__ == "__main__":
                 "rating": 5,
                 "description": "Sanduiche de Python",
                 "type": "fast-food",
-            }
+            },
         )
     )
     print(calculate_tab([{"_id": 1, "amount": 5}, {"_id": 19, "amount": 5}]))
@@ -36,3 +37,18 @@ if __name__ == "__main__":
         )
     )
     print(menu_report())
+    print(
+        add_product_extra(
+            products,
+            *["description", "price", "rating", "title", "type"],
+            **{
+                "title": "X-Python",
+                "price": 5.0,
+                "rating": 5,
+                "description": "Sanduiche de Python",
+                "type": "fast-food",
+                "extra_key_1": "extra_value_1",
+                "extra_key_2": "extra_value_2",
+            },
+        )
+    )

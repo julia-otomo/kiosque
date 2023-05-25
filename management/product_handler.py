@@ -60,3 +60,21 @@ def menu_report():
     result_phrase = f"Products Count: {product_count} - Average Price: ${round(average_price, 2)} - Most Common Type: {most_common_type}"
 
     return result_phrase
+
+
+def add_product_extra(menu: list, *necessary_keys: list, **new_product: dict):
+    for key in necessary_keys:
+        if key not in new_product.keys():
+            raise KeyError(f"Field '{key}' is required")
+
+    new_product_menu = {
+        key: value for key, value in new_product.items() if key in necessary_keys
+    }
+
+    product_id = max((product["_id"] for product in menu), default=0)
+
+    new_product_menu["_id"] = product_id + 1
+
+    menu.append(new_product)
+
+    return new_product_menu
