@@ -16,6 +16,3 @@ def calculate_tab(table: list):
 
     resulted_dict["subtotal"] = f"${round(completed_payment, 2)}"
     return resulted_dict
-
-
-calculate_tab([{"_id": 1, "amount": 5}, {"_id": 19, "amount": 5}])
