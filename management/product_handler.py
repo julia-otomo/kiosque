@@ -21,27 +21,16 @@ def get_products_by_type(type: str):
     if not isinstance(type, str):
         raise TypeError("product type must be a str")
 
-    products_list = []
-
-    for product in products:
-        if product.get("type") == type:
-            products_list.append(product)
+    products_list = [product for product in products if product.get("type") == type]
 
     return products_list
 
 
 def add_product(menu: list, **kwargs):
     new_product = kwargs
-    new_product["_id"] = 0
+    product_id = max((product["_id"] for product in menu), default=0)
 
-    if len(menu) == 0:
-        new_product["_id"] += 1
-    else:
-        id_list = []
-        for product in menu:
-            id_list.append(product["_id"])
-        max_id = max(id_list)
-        new_product["_id"] = max_id + 1
+    new_product["_id"] = product_id + 1
 
     menu.append(new_product)
     return new_product
@@ -65,7 +54,7 @@ def menu_report():
 def add_product_extra(menu: list, *necessary_keys: list, **new_product: dict):
     for key in necessary_keys:
         if key not in new_product.keys():
-            raise KeyError(f"Field '{key}' is required")
+            raise KeyError(f"field {key} is required")
 
     new_product_menu = {
         key: value for key, value in new_product.items() if key in necessary_keys
@@ -75,6 +64,6 @@ def add_product_extra(menu: list, *necessary_keys: list, **new_product: dict):
 
     new_product_menu["_id"] = product_id + 1
 
-    menu.append(new_product)
+    menu.append(new_product_menu)
 
     return new_product_menu
